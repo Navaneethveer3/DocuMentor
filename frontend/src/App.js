@@ -22,7 +22,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch('http://DocuMentor.onrender.com/chat/', {
+      const res = await fetch('https://documentorllm.onrender.com/chat/', {
         method: 'POST',
         body: formData,
       });
