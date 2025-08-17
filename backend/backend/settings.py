@@ -135,4 +135,5 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '8d5a5b3eb433.ngrok-free.app',
     'documentorllm.netlify.app',
+    'documentorllm.onrender.com',
 ]
