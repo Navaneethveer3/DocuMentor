@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-pdou%1h67x=2)x&_vk7mjt*^k45y)e$hdw4iy+#9ajg574-gi$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -124,7 +123,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOWED_ORIGINS = [
+    "documentorllm.netlify.app",
+    "http://localhost:3000",  # for local development
+]
+
 
 ALLOWED_HOSTS = [
     'localhost',
