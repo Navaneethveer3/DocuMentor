@@ -125,7 +125,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "documentorllm.netlify.app",
+    "https://documentorllm.netlify.app/",
     "http://localhost:3000",  # for local development
 ]
 
